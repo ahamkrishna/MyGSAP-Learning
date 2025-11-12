@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family:sans-serif;
-    color: #fff;
+    /* color: #fff; */
 }
 
 html,
@@ -28,6 +28,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    /* flex-direction: column; */
+    /* gap: 50px; */
 }
 
 #page3 {
@@ -43,4 +45,17 @@ body {
     height: 300px;
     width: 300px;
     background-color: crimson;
+}
+
+h1 {
+    font: 60px;
+    position: relative;
+    background-color: red;
+    padding: 10px;
+}
+h2 {
+    font: 60px;
+    position: relative;
+    background-color: yellow;
+    padding: 10px;
 }
